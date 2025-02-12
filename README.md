@@ -1,24 +1,24 @@
-# README
+# プロジェクト名
+rails-keijiban-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 📌 概要
+このプロジェクトは **掲示板を実現するためのツール/アプリケーション** です。  
 
-Things you may want to cover:
 
-* Ruby version
+## 🚀 特徴
+- 🔹 **特徴1**：掲示板を簡単に実装
+- 🔹 **特徴2**：複数のサーバーでコメントの視認が可能
+- 🔹 **特徴3**：socket.ioを用いてクライアントとサーバーの連携を簡潔なコードで書いている
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## 🛠️ インストール方法
+### 🔹 前提条件
+- Node.js 
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 🔹 セットアップ
+```sh
+git clone https://github.com/namonaki1234/rails-keijiban-app
+cd rails-keijiban-app
+npm install  

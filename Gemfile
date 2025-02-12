@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.1"
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "master"
+gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
@@ -25,7 +25,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache"
-gem "solid_queue", "~> 1.0"
+gem "solid_queue"
 gem "solid_cable"
 
 # Reduces boot times through caching; required in config/boot.rb
